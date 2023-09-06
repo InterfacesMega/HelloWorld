@@ -29,7 +29,7 @@ jobs:
         uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.28
         with:
                   api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
-                  solution-path: AutomationScript.sln
+                  solution-path: HelloWorld.sln
                   artifact-name: dataminer[UsuarioN0c2020]
                   version: 1.0.1
                   build-number: ${{ github.run_number }}
